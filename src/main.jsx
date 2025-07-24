@@ -4,7 +4,6 @@ import './index.css'
 import Header from './Header.jsx'
 import App from './index.jsx'
 import Footer from './Footer.jsx'
-import Header from './Header.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
