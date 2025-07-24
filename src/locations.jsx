@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './locations.css'
+// zm 
 
 function Locations() {
   const [spots, setSpots] = useState([]);
@@ -10,7 +11,6 @@ function Locations() {
       .then((data) => setSpots(data))
       .catch((err) => console.error("Błąd ładowania danych:", err));
   }, []);
-
   return (
     <div className="fitness-container">
       {spots.map((spot, index) => (
