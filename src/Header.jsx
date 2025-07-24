@@ -1,7 +1,9 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-function Header(){
+
+export default function Header() {
+  return (
     const [isDarkMode, setIsDarkMode] = useState(false)
 
     useEffect(() => {
@@ -38,4 +40,3 @@ function Header(){
     )
 }
 
-export default Header
