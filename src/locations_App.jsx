@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import './locations.css'
 
-function App() {
+function Locations() {
   const [spots, setSpots] = useState([]);
 
   useEffect(() => {
@@ -51,4 +51,4 @@ function App() {
 }
 
 
-export default App
+export default Locations
