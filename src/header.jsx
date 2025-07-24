@@ -8,7 +8,7 @@ function Header(){
         const darkMode = localStorage.getItem('dark-mode') === 'true';
         setIsDarkMode(darkMode);
         if (darkMode){
-            document.body.classList.add('dark-mode');
+            document.body.classNameList.add('dark-mode');
         }
     }, []);
 
@@ -16,11 +16,11 @@ function Header(){
         const newMode = !isDarkMode;
         setIsDarkMode(newMode);
         localStorage.setItem('dark-mode', newMode);
-        document.body.classList.toggle('dark-mode');
+        document.body.classNameList.toggle('dark-mode');
     };
     return(
         <header>
-			<div class="container">
+			<div className="container">
 				<h1>🏟️ Spot The Sport</h1>
 				<nav>
 					<ul>
@@ -29,8 +29,8 @@ function Header(){
 						<li><Link to="/">Credits</Link></li>
 						<li><Link to="/">Location</Link></li>
 						<li><Link to="/">DOG API</Link></li>
-                        <li class="nav-item"><Link to="#">Dark mode:</Link></li>
-                        <li class="nav-item"><label class="switch"><input type="checkbox" id="theme-toggle" checked={isDarkMode} onChange={handleToggle}/><span class="slider"></span></label></li>
+                        <li className="nav-item">Dark mode:</li>
+                        <li className="nav-item"><label className="switch"><input type="checkbox" id="theme-toggle" checked={isDarkMode} onChange={handleToggle}/><span className="slider"></span></label></li>
 					</ul>
 				</nav>
 			</div>
