@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 
 
 export default function Header() {
-  return (
     const [isDarkMode, setIsDarkMode] = useState(false)
 
     useEffect(() => {
