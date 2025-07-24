@@ -384,6 +384,8 @@ input:checked + .slider::before {
 }
 .credits-row2 button{
   margin-left: 10px;
+  height: 15px;
+  width: 40px;
 }
 .credits-main {
     display: flex;
