@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 export default function Header() {
-  return (
-    const [isDarkMode, setIsDarkMode] = useState(false)
+   /* const [isDarkMode, setIsDarkMode] = useState(false)
 
     useEffect(() => {
         const darkMode = localStorage.getItem('dark-mode') === 'true';
@@ -19,7 +18,7 @@ export default function Header() {
         setIsDarkMode(newMode);
         localStorage.setItem('dark-mode', newMode);
         document.body.classList.toggle('dark-mode');
-    };
+    }; */
     return(
         <header>
 			<div class="container">
