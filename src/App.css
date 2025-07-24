@@ -410,11 +410,32 @@ input:checked + .slider::before {
     border-radius: 16px;
     width: 15vw;
     height: 45vh;
+    perspective: 1000px;
 }
 
 .credits-container:hover {
     transition: 0.5s;
     transform: scale(1.05);
+}
+.flip-inner {
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.flip-inner.flipped {
+  transform: rotateY(180deg);
+}
+
+.flip-front,
+.flip-back {
+  position: absolute;
+  width: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-back {
+  transform: rotateY(180deg);
 }
 
     #dogResult {
