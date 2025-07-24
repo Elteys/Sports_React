@@ -1,6 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import remekPhoto from './public/images/Remek.jpg';
+import alexPhoto from './public/images/Alex.jpg';
+import maxPhoto from './public/images/Max.jpg';
+import ostryPhoto from './public/images/Ostry.jpg';
+import oliPhoto from './public/images/Oli.png';
 import './App.css'
 
 function Credits() {
@@ -27,7 +32,7 @@ function Credits() {
           <div class="credits-container">
             <div class={`flip-inner ${photo === "Description" ? "flipped" : ""}`}>
               <div class="flip-front">
-                <img src='images/Remek.jpg' alt='Remy' />
+                <img src={remekPhoto} alt='Remy' />
                 <h3>Remek Szabłowski</h3>
               </div>
               <div class="flip-back">
@@ -38,7 +43,7 @@ function Credits() {
           <div class="credits-container">
             <div class={`flip-inner ${photo === "Description" ? "flipped" : ""}`}>
               <div class="flip-front">
-                <img src="images/Max.jpg" alt="Max" />
+                <img src={maxPhoto} alt="Max" />
                 <h3>Max Wyżykowski</h3>
               </div>
               <div class="flip-back">
@@ -49,7 +54,7 @@ function Credits() {
           <div class="credits-container">
             <div class={`flip-inner ${photo === "Description" ? "flipped" : ""}`}>
               <div class="flip-front">
-                <img src="images/Alex.jpg" alt="Alex" />
+                <img src={alexPhoto} alt="Alex" />
                 <h3>Alex Łysakowski</h3>
               </div>
               <div class="flip-back">
@@ -62,7 +67,7 @@ function Credits() {
           <div class="credits-container">
             <div class={`flip-inner ${photo === "Description" ? "flipped" : ""}`}>
               <div class="flip-front">
-                <img src="images/Oli.png" alt="Oliver" />
+                <img src={oliPhoto} alt="Oliver" />
                 <h3>Oliver Kołacki</h3>
               </div>
               <div class="flip-back">
@@ -78,7 +83,7 @@ function Credits() {
           <div class="credits-container">
             <div class={`flip-inner ${photo === "Description" ? "flipped" : ""}`}>
               <div class="flip-front">
-                <img src="images/Ostry.jpg" alt="Sharpee" />
+                <img src={ostryPhoto} alt="Sharpee" />
                 <h3>Mateusz Ostrowski</h3>
               </div>
               <div class="flip-back">
