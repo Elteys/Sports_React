@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
-import remekPhoto from './public/images/Remek.jpg';
-import alexPhoto from './public/images/Alex.jpg';
-import maxPhoto from './public/images/Max.jpg';
-import ostryPhoto from './public/images/Ostry.jpg';
-import oliPhoto from './public/images/Oli.png';
+import remekPhoto from './assets/images/Remek.jpg';
+import alexPhoto from './assets/images/Alex.jpg';
+import maxPhoto from './assets/images/Max.jpg';
+import ostryPhoto from './assets/images/Ostry.jpg';
+import oliPhoto from './assets/images/Oli.png';
 import './App.css'
 
 function Credits() {
