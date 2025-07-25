@@ -418,7 +418,7 @@ input:checked + .slider::before {
 .credits-container:hover {
     transition: 0.5s;
     transform: scale(1.05);
-=======
+}
 .body-main {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -513,7 +513,6 @@ input:checked + .slider::before {
   font-size: 1.15rem;
   font-weight: bold;
   box-shadow: 0 2px 8px rgba(101, 219, 179, 0.13);
-  transition: background 0.2s, transform 0.2s;
 }
 
 .cta-button:hover {
@@ -606,7 +605,7 @@ input:checked + .slider::before {
 
 .img-text {
   display: flex;
-
+}
 .welcome-text-extra {
   font-size: 1.1rem;
   margin-top: 20px;
