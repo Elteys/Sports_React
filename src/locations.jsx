@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './locations.css'
-// zm 
+// 
 
 function Locations() {
   const [spots, setSpots] = useState([]);
