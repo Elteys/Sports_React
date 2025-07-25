@@ -513,7 +513,6 @@ input:checked + .slider::before {
   font-size: 1.15rem;
   font-weight: bold;
   box-shadow: 0 2px 8px rgba(101, 219, 179, 0.13);
-  transition: background 0.2s, transform 0.2s;
 }
 
 .cta-button:hover {
