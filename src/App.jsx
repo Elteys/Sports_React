@@ -44,7 +44,7 @@ function App() {
             places, and help us make Spot The Sport the best source of sports
             venue information for everyone!
           </p>
-          <a class="cta-button" href="gallery.html">Browse Venues</a>
+          <a class="cta-button">Browse Venues</a>
         </section>
       </main>
     </>
