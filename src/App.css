@@ -418,7 +418,7 @@ input:checked + .slider::before {
 .credits-container:hover {
     transition: 0.5s;
     transform: scale(1.05);
-=======
+}
 .body-main {
   margin: 0;
   font-family: 'Segoe UI', Arial, sans-serif;
@@ -606,7 +606,7 @@ input:checked + .slider::before {
 
 .img-text {
   display: flex;
-
+}
 .welcome-text-extra {
   font-size: 1.1rem;
   margin-top: 20px;

@@ -25,11 +25,11 @@ function Header() {
                 <h1>🏟️ Spot The Sport</h1>
                 <nav>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/App.jsx">Home</Link></li>
                         <li><Link to="/gallery">Gallery</Link></li>
-                        <li><Link to="/">Credits</Link></li>
-                        <li><Link to="/">Location</Link></li>
-                        <li><Link to="/">DOG API</Link></li>
+                        <li><Link to="/Credits.jsx">Credits</Link></li>
+                        <li><Link to="/Location.jsx">Location</Link></li>
+                        <li><Link to="/DOG.jsx">DOG API</Link></li>
                         <li className="nav-item">Dark mode:</li>
                         <li className="nav-item">
                             <label className="switch">
