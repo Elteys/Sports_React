@@ -16,10 +16,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/Credits" element={<Credits />} />
-        <Route path="/Gallery" element={<Gallery />} />
-        <Route path="/Locations" element={<Locations />} />
+        <Route path="/Sports_React/" element={<App />} />
+        <Route path="/Sports_React/Credits" element={<Credits />} />
+        <Route path="/Sports_React/Gallery" element={<Gallery />} />
+        <Route path="/Sports_React/Locations" element={<Locations />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
