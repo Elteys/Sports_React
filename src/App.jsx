@@ -2,12 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Header />
       <main class="main-content">
         <section class="welcome-section">
           <h2 class="welcome-title">Welcome to Spot The Sport!</h2>
@@ -47,6 +50,7 @@ function App() {
           <a class="cta-button" href="gallery.html">Browse Venues</a>
         </section>
       </main>
+      <Footer />
     </>
   )
 }
