@@ -5,6 +5,8 @@ import Header from './Header.jsx'
 import App from './App.jsx'
 import Footer from './Footer.jsx'
 import Locations from './Locations.jsx'
+import Credits from './Credits.jsx'
+import Gallery from './Gallery.jsx'
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
