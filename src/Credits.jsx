@@ -6,6 +6,8 @@ import alexPhoto from './assets/images/Alex.jpg';
 import maxPhoto from './assets/images/Max.jpg';
 import ostryPhoto from './assets/images/Ostry.jpg';
 import oliPhoto from './assets/images/Oli.png';
+import Header from './Header.jsx'
+import Footer from './Footer.jsx'
 import './App.css'
 
 function Credits() {
@@ -27,6 +29,7 @@ function Credits() {
   const [photo, setPhoto] = useState("Photo");
   return (
     <>
+    <Header />
       <main class="credits-main">
         <div class="credits-row">
           <div class="credits-container">
@@ -94,6 +97,7 @@ function Credits() {
           </div>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

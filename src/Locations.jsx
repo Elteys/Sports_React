@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import './locations.css'
-// 
 
 function Locations() {
   const [spots, setSpots] = useState([]);
