@@ -4,4 +4,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/Sports_React/', 
   plugins: [react()],
+    server: {
+    historyApiFallback: true
+  }
 })
