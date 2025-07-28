@@ -15,9 +15,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/Sports_React"> {/* Ustaw to TYLKO jeśli działasz pod /Sports_React/ */}
       <Routes>
         <Route path="/" element={<App />}>
-          <Route path="Credits" element={<Credits />} />
-          <Route path="Gallery" element={<Gallery />} />
-          <Route path="Locations" element={<Locations />} />
+          <Route path="/Credits" element={<Credits />} />
+          <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Locations" element={<Locations />} />
         </Route>
       </Routes>
     </BrowserRouter>
