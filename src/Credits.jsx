@@ -7,6 +7,7 @@ import maxPhoto from './assets/images/Max.jpg';
 import ostryPhoto from './assets/images/Ostry.jpg';
 import oliPhoto from './assets/images/Oli.png';
 import './App.css'
+import Header from './Header.jsx'
 
 function Credits() {
   /*  const toggle = document.getElementById('theme-toggle');
@@ -27,6 +28,7 @@ function Credits() {
   const [photo, setPhoto] = useState("Photo");
   return (
     <>
+    <Header></Header>
       <main class="credits-main">
         <div class="credits-row">
           <div class="credits-container">
@@ -94,6 +96,7 @@ function Credits() {
           </div>
         </div>
       </main>
+      <Footer></Footer>
     </>
   )
 }

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import './locations.css'
+import Header from './Header.jsx'
 // 
 
 function Locations() {
@@ -12,6 +13,8 @@ function Locations() {
       .catch((err) => console.error("Błąd ładowania danych:", err));
   }, []);
   return (
+    <>
+    <Header></Header>
     <div className="fitness-container">
       {spots.map((spot, index) => (
         <div className="img-text" key={index}>
@@ -47,6 +50,8 @@ function Locations() {
         </div>
       ))}
     </div>
+    <Footer></Footer>
+    </>
   );
 }
 
