@@ -28,7 +28,7 @@ function Credits() {
   const [photo, setPhoto] = useState("Photo");
   return (
     <>
-    <Header></Header>
+    <Header />
       <main class="credits-main">
         <div class="credits-row">
           <div class="credits-container">

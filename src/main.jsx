@@ -12,13 +12,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import './index.css'
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
-import App from './App.jsx' // będzie używane jako layout z Outlet
-import Credits from './Credits'
-import Gallery from './Gallery'
-import Locations from './Locations'
+import '  /index.css'
+import Header from '/Header.jsx'
+import Footer from '/Footer.jsx'
+import App from '/App.jsx' // będzie używane jako layout z Outlet
+import Credits from '/Credits'
+import Gallery from '/Gallery'
+import Locations from '/Locations'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
