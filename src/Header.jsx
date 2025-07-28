@@ -27,9 +27,8 @@ function Header() {
                     <ul>
                         <li><Link to="/App.jsx">Home</Link></li>
                         <li><Link to="/gallery">Gallery</Link></li>
-                        <li><Link to="/Credits.jsx">Credits</Link></li>
-                        <li><Link to="/Location.jsx">Location</Link></li>
-                        <li><Link to="/DOG.jsx">DOG API</Link></li>
+                        <li><Link to="/credits">Credits</Link></li>
+                        <li><Link to="/locations">Location</Link></li>
                         <li className="nav-item">Dark mode:</li>
                         <li className="nav-item">
                             <label className="switch">
