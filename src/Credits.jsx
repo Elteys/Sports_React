@@ -80,8 +80,8 @@ function Credits() {
           </div>
 
           <div>
-            <button className="cta-button" onClick={() => setPhoto("Photo")}>Photo</button>
-            <button className="cta-button" onClick={() => setPhoto("Description")}>Description</button>
+            <button className="crd-button" onClick={() => setPhoto("Photo")}>Photo</button>
+            <button className="crd-button" onClick={() => setPhoto("Description")}>Description</button>
           </div>
           <div className="credits-container">
             <div className={`flip-inner ${photo === "Description" ? "flipped" : ""}`}>
