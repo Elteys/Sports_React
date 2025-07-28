@@ -384,8 +384,6 @@ input:checked + .slider::before {
 }
 .credits-row2 button{
   margin-left: 10px;
-  height: 15px;
-  width: 40px;
 }
 .credits-main {
     display: flex;
@@ -513,6 +511,20 @@ input:checked + .slider::before {
   font-size: 1.15rem;
   font-weight: bold;
   box-shadow: 0 2px 8px rgba(101, 219, 179, 0.13);
+}
+.crd-button{
+  width: 100px;
+  height: 50px;
+  display: inline-block;
+  padding: 2px;
+  background: #3ca5cf;
+  background: linear-gradient(90deg,rgba(60, 165, 207, 1) 0%, rgba(87, 199, 133, 1) 100%);
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(101, 219, 179, 0.13);
+  border: none;
 }
 
 .cta-button:hover {
