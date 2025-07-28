@@ -10,7 +10,6 @@ import Gallery from './Gallery.jsx'
 
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Species from './Species'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
